@@ -1,0 +1,89 @@
+n = int(input("enter a number:"))
+
+# #armstrong
+# x = n%10 #153->3
+# a = n//10#153->15
+# b = a%10#5
+# c = a//10#1
+# #it can small changes apply then create sum of digit
+# res = x**3 + b**3 + c**3
+# if n == res:
+#     print("armstrong...")
+# else:
+#     print("no")
+
+#fibonacci
+# a=0 
+# b=1
+# for i in range(1, n+1):
+#     print(a, end=" ")
+# #small changes apply like a+b remove and a add like this a, b=b, a then create a swap program without using third variable
+#     a, b=b, a+b
+
+#prime number
+# for i in range(2, n+1):
+#     flag=0
+#     for j in range(2, int(i//2)+1):
+#         if i%j == 0:
+#             flag=1
+#             break
+    #when only check prime number then write only one for loop    
+#     if flag == 0:
+#         print( i, end = " ")
+
+#palindrome
+# rev=0
+# while(n>0):
+#     digit = n%10
+#     rev = (rev * 10) + digit
+#     n = n // 10
+#     #now rev by match to n it's called palindrome
+# print(rev)
+
+#factorial
+# fact=1
+# for i in range(1, n+1):
+#     fact = fact*i
+# print(fact)
+
+#count digit in a number
+# count=0
+# while n>0:
+#     count+=1
+#     n=n//10#1234 123 12 1 = 4
+# print(count)
+    
+#A perfect number is a number whose sum of all its proper divisors (excluding the number itself) is equal to the number.
+# Example:
+# 6 → divisors are 1, 2, 3
+# 1 + 2 + 3 = 6 → perfect number
+
+# sum=0
+# for i in range(1,n):#don't write n+1 because 6%6 = 0 
+#     if n%i==0:
+#         sum=sum+i
+# if n == sum:
+#     print("perfect")
+
+#GCD & LCM
+# a = int(input("enter a:"))
+# b = int(input("enter b:"))
+# x = a
+# y = b
+# while y!=0:
+#     x, y=y, x%y
+# print("GCD: ",x)
+# gcd = x
+# l = (a*b) // gcd
+# print("LCM: ",l)
+
+#Natural
+# sum=0
+# for i in range(n+1):
+#     sum+=i
+# print(sum)
+
+#for infinite loop
+i = 1
+while i > 0:
+    print(i)
