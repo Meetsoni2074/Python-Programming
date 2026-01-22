@@ -24,4 +24,8 @@ lst2 = [10,20,30,90,80,70]
 
 #     print(i, ": ", lst1.count(i))#frequency
 
-aaa
+
+lst = ["aaa", "aaa", "bb", "c", "c", "c"]
+for i in set(lst):
+    print(i, " comes ", lst.count(i), " times")    
+       
