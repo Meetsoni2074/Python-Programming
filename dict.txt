@@ -1,1 +1,20 @@
+students = {
+    "101": {"name": "Dhruv", "marks": {"math": 80, "science": 75, "english": 90}},
+    "102": {"name": "Ayan",  "marks": {"math": 60, "science": 85, "english": 70}},
+    "103": {"name": "Rishi", "marks": {"math": 95, "science": 55, "english": 65}}
+}
 
+highest_marks = 0
+topper_student = None
+
+for i in students :
+    total_marks = 0
+    total_marks = students[i]["marks"]["math"]
+    total_marks = students[i]["marks"]["science"]
+    total_marks = students[i]["marks"]["english"]
+
+    if total_marks > highest_marks :
+        highest_marks = total_marks
+        topper_student = i
+
+print(students[topper_student])
