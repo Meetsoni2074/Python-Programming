@@ -23,3 +23,5 @@ lst2 = [10,20,30,90,80,70]
 # for i in set(lst1):
 
 #     print(i, ": ", lst1.count(i))#frequency
+
+aaa
